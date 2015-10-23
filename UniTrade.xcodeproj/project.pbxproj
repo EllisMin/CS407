@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		326556631BDAD09B0033B3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326556621BDAD09B0033B3C7 /* AppDelegate.swift */; };
-		326556651BDAD09B0033B3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326556641BDAD09B0033B3C7 /* ViewController.swift */; };
+		326556651BDAD09B0033B3C7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326556641BDAD09B0033B3C7 /* Main.swift */; };
 		326556681BDAD09B0033B3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326556661BDAD09B0033B3C7 /* Main.storyboard */; };
 		3265566A1BDAD09B0033B3C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326556691BDAD09B0033B3C7 /* Images.xcassets */; };
 		3265566D1BDAD09B0033B3C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3265566B1BDAD09B0033B3C7 /* LaunchScreen.xib */; };
 		326556791BDAD09B0033B3C7 /* UniTradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326556781BDAD09B0033B3C7 /* UniTradeTests.swift */; };
+		326556831BDADAE50033B3C7 /* noun_89831_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 326556821BDADAE50033B3C7 /* noun_89831_cc.png */; };
+		3265568D1BDAE1760033B3C7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265568C1BDAE1760033B3C7 /* Post.swift */; };
+		3265568F1BDAE1F20033B3C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265568E1BDAE1F20033B3C7 /* User.swift */; };
+		326556911BDAE2460033B3C7 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326556901BDAE2460033B3C7 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		3265565D1BDAD09B0033B3C7 /* UniTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		326556611BDAD09B0033B3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326556621BDAD09B0033B3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		326556641BDAD09B0033B3C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326556641BDAD09B0033B3C7 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		326556671BDAD09B0033B3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		326556691BDAD09B0033B3C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3265566C1BDAD09B0033B3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		326556721BDAD09B0033B3C7 /* UniTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		326556771BDAD09B0033B3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326556781BDAD09B0033B3C7 /* UniTradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniTradeTests.swift; sourceTree = "<group>"; };
+		326556821BDADAE50033B3C7 /* noun_89831_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_89831_cc.png; path = ../../../noun_89831_cc.png; sourceTree = "<group>"; };
+		3265568C1BDAE1760033B3C7 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3265568E1BDAE1F20033B3C7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		326556901BDAE2460033B3C7 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				326556621BDAD09B0033B3C7 /* AppDelegate.swift */,
-				326556641BDAD09B0033B3C7 /* ViewController.swift */,
+				326556641BDAD09B0033B3C7 /* Main.swift */,
+				3265568C1BDAE1760033B3C7 /* Post.swift */,
+				3265568E1BDAE1F20033B3C7 /* User.swift */,
+				326556901BDAE2460033B3C7 /* Filter.swift */,
 				326556661BDAD09B0033B3C7 /* Main.storyboard */,
 				326556691BDAD09B0033B3C7 /* Images.xcassets */,
 				3265566B1BDAD09B0033B3C7 /* LaunchScreen.xib */,
@@ -90,6 +101,7 @@
 		326556601BDAD09B0033B3C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				326556821BDADAE50033B3C7 /* noun_89831_cc.png */,
 				326556611BDAD09B0033B3C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				326556681BDAD09B0033B3C7 /* Main.storyboard in Resources */,
+				326556831BDADAE50033B3C7 /* noun_89831_cc.png in Resources */,
 				3265566D1BDAD09B0033B3C7 /* LaunchScreen.xib in Resources */,
 				3265566A1BDAD09B0033B3C7 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326556651BDAD09B0033B3C7 /* ViewController.swift in Sources */,
+				3265568F1BDAE1F20033B3C7 /* User.swift in Sources */,
+				326556911BDAE2460033B3C7 /* Filter.swift in Sources */,
+				326556651BDAD09B0033B3C7 /* Main.swift in Sources */,
 				326556631BDAD09B0033B3C7 /* AppDelegate.swift in Sources */,
+				3265568D1BDAE1760033B3C7 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				3265567E1BDAD09B0033B3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3265567F1BDAD09B0033B3C7 /* Build configuration list for PBXNativeTarget "UniTradeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				326556811BDAD09B0033B3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
